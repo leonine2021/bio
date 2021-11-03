@@ -1,0 +1,54 @@
+/* import fonts from fonts.css */
+@import url(./fonts.css);
+
+/* CSS variables */
+@import url(./partials/variables.css);
+
+/* global styling */
+@import url(./partials/global.css);
+
+nav.navbar {
+  padding: 0rem 20rem;
+}
+
+/* a.nav-link {
+  text-transform: uppercase;
+  padding: 1.7rem;
+  font-weight: 500;
+  color: black;
+} */
+
+/* a.nav-brand {
+  text-transform: uppercase;
+  padding: 1.7rem;
+  font-weight: 500;
+  color: whitesmoke;
+} */
+
+.header_area .main-menu .navbar-brand {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
