@@ -8,6 +8,29 @@
   text-transform: uppercase;
 }
 
+.text-main {
+  color: white;
+}
+
+.text-muted {
+  color: rgb(233, 233, 233);
+  display: block;
+}
+
+a.no-underline {
+  text-decoration: none;
+  color: cyan;
+}
+
+ul.bullets {
+  color: white;
+}
+
+ul.bullets li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
 /* Buttons */
 
 .button {
@@ -15,7 +38,7 @@
   font: normal 500 16px/20px var(--roboto);
   position: relative;
   border: 3px solid transparent;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .button.primary-button {

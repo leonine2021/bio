@@ -7,35 +7,29 @@
 /* global styling */
 @import url(./partials/global.css);
 
+/* start nav bar */
 nav.navbar {
-  padding: 0rem 20rem;
+  padding: 0rem 14rem;
 }
-
-/* a.nav-link {
-  text-transform: uppercase;
-  padding: 1.7rem;
-  font-weight: 500;
-  color: black;
-} */
-
-/* a.nav-brand {
-  text-transform: uppercase;
-  padding: 1.7rem;
-  font-weight: 500;
-  color: whitesmoke;
-} */
 
 .header_area .main-menu .navbar-brand {
   font: normal 500 15px/2px var(--roboto);
   text-transform: uppercase;
-  padding: 1.7rem;
+  padding: 2rem;
   color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-brand:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .header_area .main-menu .nav-item .nav-link {
   font: normal 500 15px/2px var(--roboto);
   text-transform: uppercase;
-  padding: 1.7rem;
+  padding: 2rem;
   color: var(--title-color);
 }
 
@@ -52,3 +46,51 @@ nav.navbar {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+/* end nav bar */
+
+/* main */
+hr {
+  border: none;
+  color: white;
+}
+
+.site-main h1 {
+  color: var(--title-color);
+}
+
+.site-main h3 {
+  color: var(--title-color);
+}
+
+.site-main h2 {
+  color: var(--title-color);
+  padding-bottom: 3rem;
+  text-align: right;
+}
+
+/* start about */
+section#about {
+  padding: 5rem 13rem 0;
+}
+span.text-muted {
+  text-align: right;
+}
+/* end about */
+
+/* start of skills */
+section#skills {
+  padding: 0rem 13rem 0;
+}
+/* end of skills */
+
+/* start of experience */
+section#experience {
+  padding: 0rem 13rem 0;
+}
+/* end of experience */
+
+/* start of education */
+section#education {
+  padding: 0rem 13rem 0;
+}
+/* end of education */
