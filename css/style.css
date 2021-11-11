@@ -51,7 +51,7 @@ nav.navbar {
 /* main */
 hr {
   border: none;
-  color: white;
+  color: var(--title-color);
 }
 
 .site-main h1 {
@@ -70,7 +70,7 @@ hr {
 
 /* start about */
 section#about {
-  padding: 5rem 13rem 0;
+  padding-top: 5rem;
 }
 span.text-muted {
   text-align: right;
@@ -78,19 +78,19 @@ span.text-muted {
 /* end about */
 
 /* start of skills */
-section#skills {
+/* section#skills {
   padding: 0rem 13rem 0;
-}
+} */
 /* end of skills */
 
 /* start of experience */
-section#experience {
+/* section#experience {
   padding: 0rem 13rem 0;
-}
+} */
 /* end of experience */
 
 /* start of education */
-section#education {
+/* section#education {
   padding: 0rem 13rem 0;
-}
+} */
 /* end of education */
