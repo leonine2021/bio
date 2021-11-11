@@ -17,10 +17,10 @@
   display: block;
 }
 
-a.no-underline {
+/* a.no-underline {
   text-decoration: none;
   color: cyan;
-}
+} */
 
 ul.bullets {
   color: white;
