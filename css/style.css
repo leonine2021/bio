@@ -75,6 +75,33 @@ section#about {
 span.text-muted {
   text-align: right;
 }
+
+@media only screen and (max-width: 800px) {
+  span.text-muted {
+    text-align: left;
+  }
+  h2.title-section {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  div.row.skills {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  div.row.educations {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  div.row.experiences {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  h2.title-section {
+    text-align: left;
+  }
+}
+
 /* end about */
 
 /* start of skills */
